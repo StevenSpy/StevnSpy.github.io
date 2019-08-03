@@ -1,0 +1,12 @@
+.menu {
+  text-align: center;
+  background-color: #818181;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+}
