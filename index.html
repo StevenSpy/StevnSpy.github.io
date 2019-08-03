@@ -20,11 +20,11 @@
       </header>
       <nav>
         <ul>
-          <li>Expérience Professionnelle</li>
-          <li>Passions</li>
-          <li>Mes rêves</li>
-          <li>Compétences</li>
-          <li>Contact</li>
+          <a href="#ExpPro"><li>Expérience Professionnelle</li></a>
+          <a href="#Passions"><li>Passions</li></a>
+          <a href="#mesRêves"><li>Mes rêves</li></a>
+          <a href="#Compétences"><li>Compétences</li></a>
+          <a href="#Contact"><li>Contact</li></a>
         </ul>
       </nav>
       <section>
@@ -72,7 +72,7 @@
           <table>
             <thead>
               <tr>
-                <th colspan="6">Experience Professionnelle</th>
+                <th id="ExpPro" colspan="6">Experience Professionnelle</th>
               </tr>
             </thead>
             <tbody>
@@ -92,14 +92,48 @@
         <article>
           <table>
             <thead>
-              Passions / Loisir
+              <tr id="Passions">
+                Passions / Loisir
+              </tr>
             </thead>
             <tbody>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>
+                  <figure>
+                    <img
+                      src="/asset/images/loisirs/gameIcon.png"
+                      alt="Icone concernant le Jeu Video"
+                    />
+                    <figcaption></figcaption>
+                  </figure>
+                </td>
+                <td>
+                  <figure>
+                    <img
+                      src="/asset/images/loisirs/musicIcon.png"
+                      alt="Icone concernant la musique"
+                    />
+                    <figcaption></figcaption>
+                  </figure>
+                </td>
+                <td>
+                  <figure>
+                    <img
+                      src="/asset/images/loisirs/cuisineIcon.png"
+                      alt="Icone concernant la cuisine"
+                    />
+                    <figcaption></figcaption>
+                  </figure>
+                </td>
+                <td>
+                  <figure>
+                    <img
+                      src="/asset/images/loisirs/mangaIcon.png"
+                      alt="Icone concernant les mangas"
+                    />
+                    <figcaption></figcaption>
+                  </figure>
+                </td>
                 <td></td>
               </tr>
             </tbody>
@@ -108,7 +142,8 @@
         </article>
 
         <article>
-          <h2>Mes rêves / envies :</h2>
+          <h2 id="mesRêves">Mes rêves / envies :</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam beatae ducimus quod hic distinctio debitis, neque delectus praesentium repudiandae quaerat consequatur minima aut necessitatibus dicta officiis saepe, exercitationem ad quisquam?</p>
         </article>
       </section>
 
@@ -153,7 +188,7 @@
             <figcaption>Courageux</figcaption>
           </figure>
         </header>
-        <h1>Compétences</h1>
+        <h1 id="Compétences">Compétences</h1>
         <figure>
           <img
             src="asset/images/languageIcon/html5Icon.png"
@@ -189,8 +224,15 @@
           />
           <figcaption>Légère connaissance</figcaption>
         </figure>
+        <figure>
+          <img
+            src="asset/images/languageIcon/greatBritainIcon.png"
+            alt="Icone drapeau de la grande bretagne"
+          />
+          <figcaption>Anglais niveau Bac</figcaption>
+        </figure>
         <footer>
-          <h1>Contact :</h1>
+          <h1 id="Contact">Contact :</h1>
           <p>Téléphone : <a href="tel:+330605346738">0605346738</a></p>
           <p>Mon adresse mail : <a href="mailto:xxx@xxx.com">xxx@xxx.com</a></p>
           <figure>
@@ -203,7 +245,7 @@
           </figure>
           <figure>
             <a
-              href="asset/images/gitHubIcon.png"
+              href="https://github.com/StevenSpy?tab=repositories"
               alt="Liens vers le gitHub de Mr Spysschaert Steven"
               ><img src="asset/images/gitHubIcon.png" alt="Icone gitHub"
             /></a>
