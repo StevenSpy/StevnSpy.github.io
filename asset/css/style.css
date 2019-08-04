@@ -1,3 +1,7 @@
+html {
+  font-size: 10px;
+}
+
 .menu {
   text-align: center;
   background-color: #818181;
@@ -9,4 +13,23 @@
 
 .menu a {
   text-decoration: none;
+}
+
+section {
+  float: right;
+}
+
+table {
+  margin-left: 70rem;
+}
+
+article {
+  float: right;
+}
+.top {
+  float: right;
+}
+
+aside * {
+  float: left;
 }
