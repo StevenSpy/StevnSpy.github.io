@@ -15,25 +15,11 @@ html {
   text-decoration: none;
 }
 
-.droite {
+section {
   float: right;
-}
-
-table {
-  margin-left: 50rem;
-}
-
-article {
-  float: right;
-}
-.top {
-  float: right;
+  width: 75%;
 }
 
 aside {
-  float: left;
-}
-
-.gauche {
-  float: left;
+  width: 25%;
 }
