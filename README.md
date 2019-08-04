@@ -1,2 +1,2 @@
 # StevnSpy.github.io
-Mon CV en HTML/CSS
+Mon premier CV en HTML/CSS
