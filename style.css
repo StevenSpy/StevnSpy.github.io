@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
 html {
   font-size: 10px;
+  font-family: "Nunito", sans-serif;
+}
+
+#top {
+  font-size: 3rem;
 }
 
 .menu {
@@ -13,13 +20,21 @@ html {
 
 .menu a {
   text-decoration: none;
+  color: white;
 }
 
 section {
   float: right;
   width: 75%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+table {
+  margin: 0 auto;
 }
 
 aside {
   width: 25%;
+  background-color: darkcyan;
 }
