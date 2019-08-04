@@ -15,12 +15,12 @@ html {
   text-decoration: none;
 }
 
-section {
+.droite {
   float: right;
 }
 
 table {
-  margin-left: 70rem;
+  margin-left: 50rem;
 }
 
 article {
@@ -30,6 +30,10 @@ article {
   float: right;
 }
 
-aside * {
+aside {
+  float: left;
+}
+
+.gauche {
   float: left;
 }
